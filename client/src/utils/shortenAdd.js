@@ -1,0 +1,2 @@
+// function to take the address and slice it and only take the first 6 items in and showing the last 4 then import to welcome.js
+export const shortenAdd = (address) => `${address.slice(0, 5)}...${address.slice(address.length - 4)}`
